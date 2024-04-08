@@ -11,7 +11,8 @@ _$GasEstimateImpl _$$GasEstimateImplFromJson(Map<String, dynamic> json) =>
       verificationGasLimit: json['verificationGasLimit'] as String?,
       preVerificationGas: json['preVerificationGas'] as String,
       callGasLimit: json['callGasLimit'] as String,
-      verificationGas: json['verificationGas'] as String,
+      // verificationGas: json['verificationGas'] as String,
+      verificationGas: "0x60b3c",
     );
 
 Map<String, dynamic> _$$GasEstimateImplToJson(_$GasEstimateImpl instance) =>
